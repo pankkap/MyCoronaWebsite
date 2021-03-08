@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  border: 5px solid blue;
+}
+header {
+  border: 5px solid red;
+  height: 100vh;
+}
+nav {
+  background-color: blueviolet;
+  height: 20vh;
+}
+.content {
+  background-color: olivedrab;
+  height: 78vh;
+}
+.sec-2 {
+  background-color: orangered;
+  height: 100vh;
+}
+.sec-3 {
+  background-color: orchid;
+  height: 100vh;
+}
+.sec-4 {
+  background-color: green;
+  height: 100vh;
+}
+.sec-4 .left-part {
+  background-color: grey;
+  height: 100%;
+  width: 30%;
+  float: left;
+}
+.sec-4 .right-part {
+  background-color: royalblue;
+  height: 100%;
+  width: 68%;
+  float: right;
+}
+
+.sec-4 .right-part .right-part-1 {
+  background-color: sandybrown;
+  height: 50%;
+  width: 100%;
+}
+.sec-4 .right-part .right-part-2 {
+  background-color: springgreen;
+  height: 50%;
+  width: 100%;
+}
