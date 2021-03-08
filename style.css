@@ -11,8 +11,18 @@ header {
   height: 100vh;
 }
 nav {
-  background-color: blueviolet;
+  background-color: transparent;
   height: 20vh;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  line-height: 15vh;
+}
+ul li {
+  font-size: 24px;
+  margin-right: 20px;
 }
 .content {
   background-color: olivedrab;
